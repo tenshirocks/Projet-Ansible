@@ -1,0 +1,5 @@
+---
+# defaults file for roles/ansible
+python_pkg:
+  - python3
+  - python3-virtualenv

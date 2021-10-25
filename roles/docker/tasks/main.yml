@@ -1,0 +1,6 @@
+---
+# tasks file for roles/docker
+- name: Install docker
+    package:
+      name: docker
+      state: latest

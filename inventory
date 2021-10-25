@@ -1,0 +1,9 @@
+[ansible]
+localhost
+
+[docker]
+localhost
+
+[all:vars]
+ansible_user_ssh=ansible
+ansible_user=ansible

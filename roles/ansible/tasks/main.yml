@@ -1,0 +1,12 @@
+---
+# tasks file for roles/ansible
+- name: Install python 3
+    package:
+      name: {{ item }}
+      state: present
+    loop: "{{ python_pkg }}"
+                          
+
+- name: Install ansible with pip
+    pip:
+      name: ansible==2.10
